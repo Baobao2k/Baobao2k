@@ -2,7 +2,50 @@
   <a href="https://github.com/Baobao2k>Trần Phác</a>
 </p>
 
+<p align="center">
+  <span id="typing-text" style="
+    font-family: 'Fira Code', monospace;
+    font-size: 22px;
+    color: #f75c7e;
+    white-space: nowrap;
+    border-right: 2px solid;
+    padding-right: 5px;">
+  </span>
+</p>
 
+<script>
+  const lines = [
+    "Full-stack web and app developer",
+    "Experienced UI/UX Designer",
+    "10+ years of coding experience",
+    "Always learning new things"
+  ];
+  
+  let i = 0, j = 0, current = "", isDeleting = false;
+  const el = document.getElementById("typing-text");
+
+  function type() {
+    current = lines[i];
+    if (isDeleting) {
+      el.textContent = current.substring(0, j--);
+    } else {
+      el.textContent = current.substring(0, j++);
+    }
+
+    if (!isDeleting && j === current.length + 1) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+    } else if (isDeleting && j === 0) {
+      isDeleting = false;
+      i = (i + 1) % lines.length;
+      setTimeout(type, 300);
+    } else {
+      setTimeout(type, isDeleting ? 40 : 80);
+    }
+  }
+
+  type();
+</script>
 
 <!-- Social icons section -->
 <p align="center">

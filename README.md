@@ -1,14 +1,36 @@
 <p align="center">
-  <a href="https://github.com/Baobao2k">Trần Phác</a>
+  <a href="https://github.com/Baobao2k" style="
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #007acc;">
+    Trần Phác
+  </a>
 </p>
 
 <p align="center" style="
   font-family: 'Fira Code', monospace;
   font-size: 22px;
-  color: #f75c7e;
+  font-weight: bold;
+  background: linear-gradient(to right, #f75c7e, #ffb347, #00c3ff, #6a67ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
 ">
-  Full-stack web and app developer | 3+ years of coding | Always learning
+  Full-stack web and app developer | 10+ years of coding | Always learning
 </p>
+
+<style>
+@keyframes shine {
+  0% {
+    background-position: -500px;
+  }
+  100% {
+    background-position: 500px;
+  }
+}
+</style>
 
 
 <!-- Social icons section -->

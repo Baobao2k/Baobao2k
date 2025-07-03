@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Baobao2k>Trần Phác</a>
+  <a href="https://github.com/Baobao2k">Trần Phác</a>
 </p>
 
 <p align="center">
@@ -46,6 +46,7 @@
 
   type();
 </script>
+
 
 <!-- Social icons section -->
 <p align="center">

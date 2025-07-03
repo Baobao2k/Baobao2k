@@ -2,12 +2,79 @@
   <a href="https://github.com/Baobao2k>Trần Phác</a>
 </p>
 
-<p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="https://github.com/DenverCoder1/readme-typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Chào+mừng+đến+với+GitHub+của+tôi;Tôi+là+nhà+phát+triển+phần+mềm;Cùng+khám+phá+các+dự+án+hấp+dẫn+nha!&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&pause=1000&size=22" />
-  </a>
-</p>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Chữ chạy</title>
+  <style>
+    body {
+      font-family: 'Fira Code', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #fff;
+    }
+    .typing-container {
+      font-size: 22px;
+      color: #f75c7e;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid;
+      width: 28ch;
+      animation: caret 0.75s step-end infinite;
+    }
+    @keyframes caret {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="typing-container" id="typing"></div>
+
+<script>
+  const lines = [
+    "Chào mừng đến với GitHub của tôi",
+    "Tôi là nhà phát triển phần mềm",
+    "Cùng khám phá các dự án hấp dẫn nha!"
+  ];
+
+  let i = 0;
+  let j = 0;
+  let currentText = "";
+  let isDeleting = false;
+  const typingElement = document.getElementById("typing");
+
+  function type() {
+    currentText = lines[i];
+    if (isDeleting) {
+      typingElement.textContent = currentText.substring(0, j--);
+    } else {
+      typingElement.textContent = currentText.substring(0, j++);
+    }
+
+    if (!isDeleting && j === currentText.length + 1) {
+      isDeleting = true;
+      setTimeout(type, 1000);
+    } else if (isDeleting && j === 0) {
+      isDeleting = false;
+      i = (i + 1) % lines.length;
+      setTimeout(type, 300);
+    } else {
+      setTimeout(type, isDeleting ? 50 : 100);
+    }
+  }
+
+  type();
+</script>
+
+</body>
+</html>
+
 
 
 

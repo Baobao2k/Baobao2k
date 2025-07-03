@@ -64,19 +64,19 @@
       <!-- $10+/month -->
       <!-- <td>
         <div align="center">
-          <a href="https://github.com/username"><img src="https://github.com/username" alt="@username" width="52" /></a>
+          <a href="https://github.com/Baobao2k"><img src="https://github.com/Baobao2k" alt="@username" width="52" /></a>
           <br />
-          <a align="center" href="https://github.com/username"><b>Full Name</b></a>
+          <a align="center" href="https://github.com/Baobao2k"><b>Full Name</b></a>
         </b>
       </td> -->
       <!-- $5+/month -->
       <td>
-        <a href="https://github.com/typesense"><img src="https://custom-icon-badges.demolab.com/badge/-typesense-D90368?style=for-the-badge&logo=mention" alt="typesense" /></a>
+        <a href="https://github.com/Baobao2k"><img src="https://custom-icon-badges.demolab.com/badge/-typesense-D90368?style=for-the-badge&logo=mention" alt="typesense" /></a>
       </td>
     </tr>
   </table>
 
-  <a href="https://github.com/sponsors/DenverCoder1/"><img alt="More about my sponsorship tiers" title="Sponsorship Tiers" src="https://custom-icon-badges.demolab.com/badge/-More%20About%20My%20Sponsorship%20Tiers-1F222E?style=for-the-badge&logoColor=white&logo=link-external"/></a>
+  <a href="https://github.com/sponsors/Baobao2k/"><img alt="More about my sponsorship tiers" title="Sponsorship Tiers" src="https://custom-icon-badges.demolab.com/badge/-More%20About%20My%20Sponsorship%20Tiers-1F222E?style=for-the-badge&logoColor=white&logo=link-external"/></a>
 </details>
 
 <details open> 
